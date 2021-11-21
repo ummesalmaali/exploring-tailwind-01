@@ -5,14 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Html Tailwind Starter</title>
+    <title>Exploring Tailwind</title>
     <link rel="stylesheet" href="./dist/tailwind.css">
 </head>
 
-<body class="bg-gray-900 text-white">
-    <div class="container mx-auto">
-        <h1 class="text-center text-6xl">HTML TailwindCSS Starter</h1>
+<body>
+    <h1 class="mt-10 mb-2 capitalize text-center text-6xl">Our Services</h1>
+    <hr class="w-1/5 " />
+    <div class="grid grid-cols-3 lg:gap-3 ">
+        <!-- my first card -->
+        <div class="py-10">
+            <div class="rounded overflow-hidden shadow-lg max-w-sm">
+                <img class="w-full"
+                    src="https://images.pexels.com/photos/1374295/pexels-photo-1374295.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                    alt="mountain">
+            </div>
+        </div>
+        <!-- my first card -->
+        <div class="py-10">
+            <div class="rounded overflow-hidden shadow-lg">
+                <img src="https://images.pexels.com/photos/1374295/pexels-photo-1374295.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                    class="w-full" alt="mountain">
+            </div>
+        </div>
+        <!-- my first card -->
+        <div class="py-10">
+            <div class="rounded overflow-hidden shadow-lg">
+                <img src="https://images.pexels.com/photos/1374295/pexels-photo-1374295.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                    class="w-full" alt="mountain">
+            </div>
+        </div>
+
     </div>
+
 </body>
 
 </html>
